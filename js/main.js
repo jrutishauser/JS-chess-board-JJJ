@@ -1,4 +1,3 @@
-
 function print(){
     document.write('<table border="1">');
     
