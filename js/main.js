@@ -21,12 +21,20 @@ function print(board){
 
       // Before any cells are printed...
 
+      console.log({
+          'rank': "<tr>"
+      });
+      
       _.forEach(row, function(square, file){
 
-          // In here, we have `rank`, `file`, and `square`...
-
+            console.log({
+                'file': "<td></td>",
+                'square': square,
+            })
       }); // END foreach(row)
-
+    console.log({
+          'rank': "</tr>"
+      });
       // After all the cells are printed...
 
   }); // END foreach(board)
@@ -34,3 +42,5 @@ function print(board){
   // After all the rows are printed...
   console.log('</table> <!-- .chessboard -->');
 } 
+
+print(board);
