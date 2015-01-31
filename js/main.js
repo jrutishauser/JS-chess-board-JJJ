@@ -1,7 +1,7 @@
 function print(){
+    
+    document.write('<div class="container-fluid">')
     document.write('<table border="1">');
-    
-    
     _.times(8, function(){
         document.write('<tr>');
         _.times(8, function(){
@@ -13,5 +13,6 @@ function print(){
     
     document.write('</table>');
 }
+
 
 print();

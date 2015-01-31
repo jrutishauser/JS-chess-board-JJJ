@@ -102,6 +102,11 @@ body {
 
 }
 
+.container-fluid {
+    margin: 0 auto;
+    width: 50%;
+}
+
 table {
     width: 100%;
 }
@@ -140,8 +145,9 @@ td:before {
 
 .buttons {
     width: 100%;
-    margin: 2ex auto;
+    margin: 0 auto;
     text-align: center;
+    outline: 1px solid black;
 }
 
 
