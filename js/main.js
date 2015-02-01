@@ -135,9 +135,13 @@ print(board);
 //    print(board);
 //}
 function movePiece(){
-
     var lContent = document.getElementById('g4').innerHTML;
     document.getElementById('g4').innerHTML = "";
     document.getElementById('e4').innerHTML = lContent;
+}
 
+function movePiece2() {
+    var lContent = document.getElementById('a7').innerHTML;
+    document.getElementById('a7').innerHTML = "",
+    document.getElementById('c6').innerHTML = lContent;
 }
