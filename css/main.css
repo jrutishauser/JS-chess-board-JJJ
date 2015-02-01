@@ -98,7 +98,7 @@ textarea {
    ========================================================================== */
 table {
     width: 60%;
-    margin: 0 auto;
+    margin: 2ex auto;
 }
 
 td {
@@ -122,18 +122,6 @@ background-color: darkgray;
     padding: 2em 0;
 }
 
-.fa {
-    color: #4d4d4d;
-    background-color: #fff;
-    border: 1px solid #cecece;
-    padding: .5% .8%;
-    margin-right: 0.2ex;
-}
-
-.fa:hover{
-    color: #fff;
-    background-color: #3984b4;
-}
 
 .piece::before {
     position: absolute;
