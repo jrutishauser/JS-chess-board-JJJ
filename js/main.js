@@ -29,23 +29,6 @@ function print(){
 
 
 
-//function print(board){
-//    document.write('<div class="container">'); // need something better this rewures everything
-//    document.write('<table class="chessboard">'); // need something better this rewures everything
-//
-//    _.forEach(board, function(row, key){ // need something better this rewures everything
-//        document.write('<tr>'); // need something better this rewures everything
-//        _.forEach(row, function(square, k){ // need something better this rewures everything
-//            document.write('<td>' + square + '</td>'); // need something better this rewures everything
-//
-//        });
-//        document.write('</tr>'); // need something better this rewures everything
-//    });
-//
-//    document.write('</table>');
-//        document.write('</div>');
-//}
-
 var board = {};
 board.a = {
     'one': '<span class="piece black rook"></span>',
@@ -174,9 +157,26 @@ if (whichMove == 0) {
     document.getElementById('a6').innerHTML = "",
     document.getElementById('b5').innerHTML = lContent;
     whichMove++;
-} else {
+} else if (whichMove ==8 ){
     var lContent = document.getElementById('h7').innerHTML;
     document.getElementById('h7').innerHTML = "",
     document.getElementById('f6').innerHTML = lContent;
+    } else if (whichMove == 9) {
+        //your mom//
     }
 };
+
+
+function moveBack {
+
+}
+
+
+function moveALL() {
+
+}
+
+
+function reset() {
+
+}
