@@ -166,17 +166,17 @@ if (whichMove == 0) {
     }
 };
 
-
-function moveBack {
-
-}
-
-
-function moveALL() {
-
-}
-
-
-function reset() {
-
-}
+//
+//function moveBack {
+//
+//}
+//
+//
+//function moveALL() {
+//
+//}
+//
+//
+//function reset() {
+//
+//}
