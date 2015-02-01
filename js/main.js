@@ -145,3 +145,45 @@ function movePiece2() {
     document.getElementById('a7').innerHTML = "",
     document.getElementById('c6').innerHTML = lContent;
 }
+
+function movePiece3() {
+    var lContent = document.getElementById('g3').innerHTML;
+    document.getElementById('g3').innerHTML = "",
+    document.getElementById('e3').innerHTML = lContent;
+}
+
+function movePiece4() {
+    var lContent = document.getElementById('b5').innerHTML;
+    document.getElementById('b5').innerHTML = "",
+    document.getElementById('c5').innerHTML = lContent;
+}
+
+function movePiece5() {
+    var lContent = document.getElementById('g7').innerHTML;
+    document.getElementById('g7').innerHTML = "",
+    document.getElementById('f7').innerHTML = lContent;
+}
+
+function movePiece6() {
+    var lContent = document.getElementById('b4').innerHTML;
+    document.getElementById('b4').innerHTML = "",
+    document.getElementById('d4').innerHTML = lContent;
+}
+
+function movePiece7() {
+    var lContent = document.getElementById('h6').innerHTML;
+    document.getElementById('h6').innerHTML = "",
+    document.getElementById('g7').innerHTML = lContent;
+}
+
+function movePiece8() {
+    var lContent = document.getElementById('a6').innerHTML;
+    document.getElementById('a6').innerHTML = "",
+    document.getElementById('b5').innerHTML = lContent;
+}
+
+function movePiece9() {
+    var lContent = document.getElementById('h7').innerHTML;
+    document.getElementById('h7').innerHTML = "",
+    document.getElementById('f6').innerHTML = lContent;
+}
