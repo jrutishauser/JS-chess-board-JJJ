@@ -96,10 +96,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.container {
+#container {
     width: 50%;
     margin: 0 auto;
-    padding: 0;
+    padding-top: 4ex;
 }
 
 .chessboard {
@@ -136,6 +136,12 @@ td {
 }
 .white {
     color: snow;
+}
+
+#buttons {
+    width: 90%;
+    margin: 4ex auto;
+    text-align: center;
 }
 
 /* ==========================================================================
