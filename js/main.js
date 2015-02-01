@@ -100,9 +100,41 @@ board.h = {
 };
 print(board);
 
-var moveMe = function (container) { // after we figure out a better write we need to work on multiple moves.
+window.onload = function() {
+    
+var moveMe = function () { 
     board.c.three = board.a.one;
-    board.a.one = '';
-    print(board);
+    board.a.one.innerText = "";
+    alert(board.a.one + 'this is a.one that has the piece, still.. why?');
+alert(board.c.three + 'this is where it should go.');
+    
+}
+
+
+
+var button = document.getElementById('one-move');
+    
+button.onclick = moveMe;
+
+
+var step1 = function() {
+    moveMe();
 }
  
+alert(board.a.one + 'this is a.one that has the piece.');
+alert(board.c.three + 'this is where it should go. empty now so ok');
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
