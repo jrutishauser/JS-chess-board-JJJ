@@ -96,148 +96,47 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-body {
-    background-color: #3c4b3c;
-
-}
-
-.container-fluid {
-    margin: 0 auto;
+.container {
     width: 50%;
-}
-
-table {
-    width: 100%;
-}
-
-thead th {
-    border-bottom: 1px solid black;
-    text-align: center;
-    color: white;
-}
-
-tbody th {
-    border-right: 1px solid black;
-    text-align: center;
-    color: white;
-}
-
-tbody td {
-    width: 12.5%;
-    padding-bottom: 12.5%;
-    border: 1px solid black;
-    background-color: snow;
-    position: relative;
-}
-
-
-
-tbody :nth-child(even) td:nth-child(even),
-tbody :nth-child(odd) td:nth-child(odd){
-    background-color: darkgray;
-}
-
-td:before {
-    font-size: 10vw;
-    left: 8%;
-}
-
-.buttons {
-    width: 100%;
     margin: 0 auto;
-    text-align: center;
-    outline: 1px solid black;
+    padding: 0;
 }
 
+.chessboard {
+    width: 100%;
+    
+}
 
-/*black pieces*/
-.black.queen:before {
-    content: '\265B';
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+    background-color: #444;
+}
+
+tr, td {
+}
+
+td {
+    width: 10%;
+    padding-bottom: 12%;
+    position: relative;
+    background-color: pink;
+    border: 1px solid black;
+
+}
+
+.piece {
+    font-size: 3vw;
+    margin-top: 10%;
+    margin-left: 25%;
     position: absolute;
 }
 
-.black.king:before {
-    content: '\265A';
-    position: absolute;
+.black {
+    color: black;
 }
-
-.black.bishop:before {
-    content: '\265D';
-    position: absolute;
+.white {
+    color: white;
 }
-
-.black.knight:before {
-    content: '\265E';
-    position: absolute;
-}
-
-.black.rook:before {
-    content: '\265C';
-    position: absolute;
-}
-
-.black.pawn:before {
-    content: '\265F';
-    position: absolute;
-}
-
-
-/*white pieces*/
-.white.queen:before {
-    content: '\2655';
-    position: absolute;
-}
-
-.white.king:before {
-    content: '\2654';
-    position: absolute;
-}
-
-.white.bishop:before {
-    content: '\2657';
-    position: absolute;
-}
-
-.white.knight:before {
-    content: '\2658';
-    position: absolute;
-}
-
-.white.rook:before {
-    content: '\2656';
-    position: absolute;
-}
-
-.white.pawn:before {
-    content: '\2659';
-    position: absolute;
-}
-
-.white.piece:hover {
-     background-color: #99a5e6;
- }
-
-.black.piece:hover {
-    background-color: #99a5e6;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
