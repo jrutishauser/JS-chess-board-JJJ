@@ -129,61 +129,54 @@ board.h = {
 };
 print(board);
 
-//var moveMe = function (container) { // after we figure out a better write we need to work on multiple moves.
-//    board.c.three = board.a.one;
-//    board.a.one = '';
-//    print(board);
-//}
+
+var whichMove = 0;
+
 function movePiece(){
+
+if (whichMove == 0) {
     var lContent = document.getElementById('g4').innerHTML;
     document.getElementById('g4').innerHTML = "";
     document.getElementById('e4').innerHTML = lContent;
-}
-
-function movePiece2() {
+    whichMove++;
+} else if (whichMove == 1) {
     var lContent = document.getElementById('a7').innerHTML;
     document.getElementById('a7').innerHTML = "",
     document.getElementById('c6').innerHTML = lContent;
-}
-
-function movePiece3() {
+    whichMove++;
+} else if (whichMove == 2){
     var lContent = document.getElementById('g3').innerHTML;
     document.getElementById('g3').innerHTML = "",
     document.getElementById('e3').innerHTML = lContent;
-}
-
-function movePiece4() {
+    whichMove++;
+} else if (whichMove == 3){
     var lContent = document.getElementById('b5').innerHTML;
     document.getElementById('b5').innerHTML = "",
     document.getElementById('c5').innerHTML = lContent;
-}
-
-function movePiece5() {
+    whichMove++;
+} else if (whichMove == 4){
     var lContent = document.getElementById('g7').innerHTML;
     document.getElementById('g7').innerHTML = "",
     document.getElementById('f7').innerHTML = lContent;
-}
-
-function movePiece6() {
+    whichMove++;
+} else if (whichMove == 5){
     var lContent = document.getElementById('b4').innerHTML;
     document.getElementById('b4').innerHTML = "",
     document.getElementById('d4').innerHTML = lContent;
-}
-
-function movePiece7() {
+    whichMove++;
+} else if (whichMove == 6){
     var lContent = document.getElementById('h6').innerHTML;
     document.getElementById('h6').innerHTML = "",
     document.getElementById('g7').innerHTML = lContent;
-}
-
-function movePiece8() {
+    whichMove++;
+} else if (whichMove == 7){
     var lContent = document.getElementById('a6').innerHTML;
     document.getElementById('a6').innerHTML = "",
     document.getElementById('b5').innerHTML = lContent;
-}
-
-function movePiece9() {
+    whichMove++;
+} else {
     var lContent = document.getElementById('h7').innerHTML;
     document.getElementById('h7').innerHTML = "",
     document.getElementById('f6').innerHTML = lContent;
-}
+    }
+};
