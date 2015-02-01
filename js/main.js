@@ -1,22 +1,22 @@
 function print(board){
     document.write('<div class="container">'); // need something better this rewures everything
     document.write('<table class="chessboard">'); // need something better this rewures everything
-    
+
     _.forEach(board, function(row, key){ // need something better this rewures everything
         document.write('<tr>'); // need something better this rewures everything
         _.forEach(row, function(square, k){ // need something better this rewures everything
             document.write('<td>' + square + '</td>'); // need something better this rewures everything
-   
+
         });
-        document.write('</tr>'); // need something better this rewures everything 
-    }); 
-    
+        document.write('</tr>'); // need something better this rewures everything
+    });
+
     document.write('</table>');
         document.write('</div>');
 
-    
+
 }
- 
+
 var board = {};
 board.a = {
     'one': '<span class="piece black rook">&#9820;</span>',
@@ -105,4 +105,4 @@ var moveMe = function (container) { // after we figure out a better write we nee
     board.a.one = '';
     print(board);
 }
- 
+

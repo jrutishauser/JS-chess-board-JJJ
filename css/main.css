@@ -104,30 +104,30 @@ textarea {
 
 .chessboard {
     width: 100%;
-    
+
 }
 
 tr:nth-child(even) td:nth-child(odd),
 tr:nth-child(odd) td:nth-child(even) {
-    background-color: #444;
+    background-color: #3b3a3a;
 }
 
 tr, td {
 }
 
 td {
-    width: 10%;
-    padding-bottom: 12%;
+    width: 12.5%;
+    padding-bottom: 12.5%;
     position: relative;
-    background-color: pink;
+    background-color: #848181;
     border: 1px solid black;
 
 }
 
 .piece {
-    font-size: 3vw;
-    margin-top: 10%;
-    margin-left: 25%;
+    font-size: 5vw;
+    margin-top: 12.5%;
+    margin-left: 7.5%;
     position: absolute;
 }
 
@@ -135,7 +135,7 @@ td {
     color: black;
 }
 .white {
-    color: white;
+    color: snow;
 }
 
 /* ==========================================================================
